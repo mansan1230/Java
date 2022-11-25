@@ -12,10 +12,35 @@ public class Student {
 		 gender = g;
 		 id = i;		 
 	 }
-	 void getstudent()
+	void getstudent()
 	 {
 		 System.out.println(name+ " " + age + " " + gender + " " + id); 
 	 }
+	void setName(String n){
+         	this.name = n;
+    	}
+  	void setAge(int a){
+         	this.age = a;
+    	}
+    	void setGender(String g){
+   	     this.gender = g;
+   	 }
+   	void setId(int i){
+        	this.id = i;
+ 	   }
+  	public String getName(){
+  	      return name;
+   	 }
+   	public int getAge(){
+        	return age;
+    	}
+    	public String getGender(){
+       		return gender;
+    	}
+    	public int getId(){
+       		return id;
+  	  }
+	
 }
 
 class TestStudent1{  
